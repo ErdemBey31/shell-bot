@@ -1,4 +1,4 @@
-apt update
+apt update -y
 apt install python3-pip -y
 apt install npm -y
 pip install gunicorn flask
