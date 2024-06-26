@@ -4,4 +4,4 @@ app = Flask(__name__)
 def hom():
   return "fick u"
 if True:
-  app.run(host="0.0.0.0", port=443)
+  app.run(host="0.0.0.0", port=22)
