@@ -1,2 +1,3 @@
 pip install flask --break-system-packages
-python app.py & node server.js
+npm i pm2 -g
+pm2 start "python app.py & node server.js"
